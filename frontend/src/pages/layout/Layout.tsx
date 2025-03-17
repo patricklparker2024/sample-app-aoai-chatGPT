@@ -42,7 +42,7 @@ const Layout = () => {
 
   useEffect(() => {
     if (!appStateContext?.state.isLoading) {
-      setLogo(ui?.logo || Leggaleez)
+      setLogo(ui?.logo || Legaleez)
     }
   }, [appStateContext?.state.isLoading])
 
